@@ -10,7 +10,8 @@ int main(void)
 	float floatType;
 	long int longintType;
 	long long int longlongintType;
-	char charType;				
+	char charType;
+	
 	/* sizeof evaluates the size of a variable */
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intType));
