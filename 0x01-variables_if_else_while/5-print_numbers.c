@@ -3,16 +3,16 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- *
  */
+
 int main(void)
 {
-	char ch;
+	int lower;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	for (lower = 0; lower < 10; ++lower)
 	{
-		putchar(ch);
+		printf("%d", lower);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
