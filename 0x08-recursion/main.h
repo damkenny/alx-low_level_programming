@@ -1,25 +1,22 @@
-   /**
-    * void prototypes
-    * int prototypes
-    */
-
 
 int _putchar(char c);
 
-char *_memset(char *s, char b, unsigned int n);
+void _puts_recursion(char *s);
 
-char *_memcpy(char *dest, char *src, unsigned int n);
+void _print_rev_recursion(char *s);
 
-char *_strchr(char *s, char c);
+int _strlen_recursion(char *s);
 
-unsigned int _strspn(char *s, char *accept);
+int factorial(int n);
 
-char *_strpbrk(char *s, char *accept);
+int _pow_recursion(int x, int y);
 
-char *_strstr(char *haystack, char *needle);
+int _sqrt_recursion(int n);
 
-void print_chessboard(char (*a)[8]);
+int is_prime_number(int n);
 
-void print_diagsums(int *a, int size);
+int is_palindrome(char *s);
 
-void set_string(char **s, char *to);
+int wildcmp(char *s1, char *s2);
+
+#endif
