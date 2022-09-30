@@ -1,3 +1,11 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+/**
+ * void prototypes
+ * int prototypes
+ */
+
 
 int _putchar(char c);
 
